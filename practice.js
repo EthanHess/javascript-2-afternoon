@@ -16,6 +16,13 @@
 
 //Code here
 
+var me = {
+  name: "Ethan", 
+  age: 29
+}
+
+alert(me.name); 
+
 
 
 ////////// PROBLEM 2 //////////
@@ -27,6 +34,14 @@
 
 //Code here
 
+var favoriteThings = {
+  band: "Led Zeppelin", 
+  food: "Sushi", 
+  person: "Batman", 
+  book: "I am America and so can you (Steven Colbert)", 
+  movie: "National Lampoon's Vacation", 
+  holiday: "Spain"
+}
 
 
 /*
@@ -35,6 +50,8 @@
 
 //Code here
 
+favoriteThings.car = "BMW";
+favoriteThings.brand = "Apple"; 
 
 
 /*
@@ -43,7 +60,8 @@
 
 //Code here
 
-
+favoriteThings.food = 'Chicken Nuggets'; 
+favoriteThings.book = 'Harry Potter'; 
 
 ////////// PROBLEM 3 //////////
 
@@ -57,7 +75,13 @@
 
 //Code here
 
+var backPack = {}
 
+var item = "firstPocket"
+
+backPack[item] = 'chapstick'; 
+
+backpack.color = "Black"
 
 /*
   After you do the above, alert your entire backPack object.
@@ -65,7 +89,7 @@
 
 //Code here
 
-
+alert(backPack); 
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +99,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack); 
 
 ////////// PROBLEM 4 //////////
 
@@ -99,14 +123,12 @@ var user2 = {
 //Code Here
 
 
-
-
-
+user2.name = 'Tyler S. McGinnis'; 
+user2.email = 'tyler.mcginnis@devmounta.in'; 
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
-
 
 
 
